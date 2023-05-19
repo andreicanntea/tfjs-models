@@ -1014,6 +1014,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@tensorflow-models/blazeface@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@tensorflow-models/blazeface/-/blazeface-0.0.7.tgz#0a16499a0cc97fc87e11ae1f78140731c5f63bf2"
+  integrity sha512-+hInPkvHJoubfiXlmNuF3SCucZvU6W1PMC25IV99NSAftJUpKvLokfF93iX8UkOFQCXkPFbnLKacGfGlbjgvMw==
+
 "@tensorflow-models/face-detection@~1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tensorflow-models/face-detection/-/face-detection-1.0.1.tgz#f0b68f5c8ebf38d588ae2c9c6eb7517e7faad2b5"
@@ -1021,8 +1026,13 @@
   dependencies:
     rimraf "^3.0.2"
 
-"@tensorflow-models/face-landmarks-detection@file:../../dist":
-  version "0.0.0"
+"@tensorflow-models/face-landmarks-detection@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tensorflow-models/face-landmarks-detection/-/face-landmarks-detection-0.0.3.tgz#6fdf3b49a50796acf08b7ea350f8ea5a5a45eca1"
+  integrity sha512-WFzoknHev00yEVDFDk55eKBnRDEo9EAzfi7IxxIpm+31TJfj0TX6soQPiAE/qQGoHo9MnD6CkFH189ZZuwQblw==
+  dependencies:
+    "@tensorflow-models/blazeface" "0.0.7"
+    rimraf "^3.0.2"
 
 "@tensorflow/tfjs-backend-cpu@3.15.0":
   version "3.15.0"
