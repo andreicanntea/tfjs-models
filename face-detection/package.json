@@ -63,6 +63,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "rimraf": "^3.0.2",
-    "tslib": "2.4.0"
+    "tslib": "2.5.0"
   }
 }
