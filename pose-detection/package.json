@@ -70,7 +70,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.0",
     "tslib": "2.4.0"
   }
 }
